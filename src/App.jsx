@@ -317,7 +317,7 @@ const STYLES = `
     display: flex; justify-content: space-between; align-items: center;
     border-top: 1px solid #0F0022; flex-wrap: wrap; gap: 16px; position: relative; z-index: 2;
   }
-  .footer-tagline { font-size: 11.5px; color: #2E0D52; letter-spacing: 0.08em; text-transform: uppercase; }
+  .footer-tagline { font-size: 11.5px; color: #C48BFF; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600; }
   .footer-copy { font-size: 11px; color: #1A0533; }
 
   .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.65s ease, transform 0.65s ease; }
@@ -677,7 +677,7 @@ export default function WepexLanding() {
               <button
                 className="btn-primary"
                 style={{ fontSize:15, padding:"18px 52px" }}
-                onClick={() => window.open("https://wa.me/5583999999999?text=Olá! Quero saber mais sobre o posicionamento Wepex.", "_blank")}
+                onClick={() => window.open("https://wa.me/5583998459709?text=Quero saber como a Wepex pode somar na minha operação.", "_blank")}
               >
                 Falar com a Wepex
               </button>
@@ -689,8 +689,8 @@ export default function WepexLanding() {
         {/* FOOTER */}
         <footer className="footer">
           <WepexLogo size={22} />
-          <div className="footer-tagline">Posicionamento · Conteúdo · Tráfego Pago</div>
-          <div className="footer-copy">© 2025 Wepex Estratégias Digitais</div>
+          <div className="footer-tagline">Posicionamento · Estratégia · Tráfego Pago</div>
+          <div className="footer-copy">© 2026 Wepex Estratégias Digitais</div>
         </footer>
 
       </div>
